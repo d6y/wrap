@@ -4,7 +4,7 @@ name := "wrap"
 
 scalaVersion := "2.11.7"
 
-libraryDependencies ++= logging ++ testlib ++ parser
+libraryDependencies ++= cats ++ logging ++ testlib ++ parser
 
 scalacOptions in ThisBuild ++= Seq(
   "-deprecation",
